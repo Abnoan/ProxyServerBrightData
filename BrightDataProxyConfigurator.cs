@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace BrightDataProxy
+namespace WebScrapBrightData
 {
     public class BrightDataProxyConfigurator
     {

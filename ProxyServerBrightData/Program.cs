@@ -2,7 +2,7 @@
 {
     public class Program
     {
-        static async Task Main(string[] args)
+        public static async Task Main(string[] args)
         {
             // Bright Data Proxy Configuration
             string host = "zproxy.lum-superproxy.io";
@@ -13,10 +13,7 @@
 
             // Scrape content from the target URL
             string urlToScrape = "https://www.wikipedia.org/";
-            var content = await WebContentScraper.ScrapeContent(urlToScrape, client);
-
-            // Extract data from the HTML content
-            HtmlDataExtractor.ExtractHyperlinks(content);
+            await WebContentScraper.ScrapeContent(urlToScrape, client);
         }
     }
 }

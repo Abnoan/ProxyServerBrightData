@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapBrightData", "WebScrapBrightData.csproj", "{B0565E1B-5615-4C2B-9E10-660535DF7CDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyServer", "ProxyServer\ProxyServer.csproj", "{E0DEE91A-4587-44E4-A716-B8D60F1A94C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrapApp", "..\WebScrapApp\WebScrapApp.csproj", "{C6261DC7-ECEA-4F57-851A-CAFC3F89D2F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapApp", "WebScrapApp\WebScrapApp.csproj", "{46293AF7-A8A6-4E37-B0CA-6866F90EB3BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyServer", "..\ProxyServer\ProxyServer.csproj", "{95372326-0C17-43D2-99EC-866A2A0F6C43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapBrightData", "ProxyServerBrightData\WebScrapBrightData.csproj", "{E5CF72EF-37CB-4DB7-B33F-18CAC55457C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B0565E1B-5615-4C2B-9E10-660535DF7CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0565E1B-5615-4C2B-9E10-660535DF7CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0565E1B-5615-4C2B-9E10-660535DF7CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0565E1B-5615-4C2B-9E10-660535DF7CDE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C6261DC7-ECEA-4F57-851A-CAFC3F89D2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6261DC7-ECEA-4F57-851A-CAFC3F89D2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6261DC7-ECEA-4F57-851A-CAFC3F89D2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6261DC7-ECEA-4F57-851A-CAFC3F89D2F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95372326-0C17-43D2-99EC-866A2A0F6C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95372326-0C17-43D2-99EC-866A2A0F6C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95372326-0C17-43D2-99EC-866A2A0F6C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95372326-0C17-43D2-99EC-866A2A0F6C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DEE91A-4587-44E4-A716-B8D60F1A94C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DEE91A-4587-44E4-A716-B8D60F1A94C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DEE91A-4587-44E4-A716-B8D60F1A94C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DEE91A-4587-44E4-A716-B8D60F1A94C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46293AF7-A8A6-4E37-B0CA-6866F90EB3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46293AF7-A8A6-4E37-B0CA-6866F90EB3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46293AF7-A8A6-4E37-B0CA-6866F90EB3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46293AF7-A8A6-4E37-B0CA-6866F90EB3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5CF72EF-37CB-4DB7-B33F-18CAC55457C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CF72EF-37CB-4DB7-B33F-18CAC55457C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CF72EF-37CB-4DB7-B33F-18CAC55457C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CF72EF-37CB-4DB7-B33F-18CAC55457C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
